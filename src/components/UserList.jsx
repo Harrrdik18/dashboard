@@ -45,7 +45,7 @@ const UserList = ({ openModal }) => {
               <td className="py-2">{user.name.split(' ')[0]}</td>
               <td className="py-2">{user.name.split(' ')[1]}</td>
               <td className="py-2">{user.email}</td>
-              <td className="py-2">Department Placeholder</td>
+              <td className="py-2">{user.company.name}</td>
               <td className="py-2">
                 <button 
                   onClick={() => openModal('edit', user)} 
